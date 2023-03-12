@@ -68,7 +68,7 @@
   
 .accordion-item:has(.item-input:checked) .icon {
     background-image: url('./assets/button-black.svg');
-    transform: rotate(0.13turn);
+    transform: rotate(45deg);
   }
 
 .icon {
@@ -184,7 +184,7 @@
     }
   
     .container:hover .icon {
-      background: url('./img/close.svg');
+      background: url('./assets/button-black.svg');
       opacity: 1;
     }
   
@@ -193,7 +193,7 @@
     }
   
     .accordion-item:hover .icon {
-      transform: rotate(0.13turn);
+      transform: rotate(45deg);
     }
   
     .accordion-item:hover .item-content {
@@ -214,8 +214,8 @@
     }
   
     .accordion-item:active .icon {
-      background: url('./img/close-colored.svg');
-      transform: rotate(0.13turn);
+      background: url('./assets/button-blue.svg');
+      transform: rotate(45deg);
     }
   }
 
